@@ -1,0 +1,12 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+input, select, button {
+  display: block;
+  margin: 10px 0;
+  padding: 5px;
+  width: 100%;
+}

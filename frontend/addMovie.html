@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Movie</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Add Movie</h2>
+
+  <form id="movieForm">
+    <input id="title" placeholder="Movie Title" required>
+    <input id="rentalPeriod" placeholder="Rental Period (days)" type="number" required>
+    <input id="rentalPrice" placeholder="Rental Price" type="number" step="0.01" required>
+    <button type="submit">Add Movie</button>
+  </form>
+
+  <p id="message"></p>
+
+  <script src="movieScript.js"></script>
+</body>
+</html>
