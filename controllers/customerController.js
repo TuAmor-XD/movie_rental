@@ -1,4 +1,4 @@
-const pool = require("../dbConnection");
+const pool = require("../db/dbConnection");
 
 // Add customer
 exports.addCustomer = async (req, res) => {

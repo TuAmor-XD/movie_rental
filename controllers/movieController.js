@@ -1,4 +1,4 @@
-const pool = require("../dbConnections");
+const pool = require("../db/dbConnection");
 
 // Add a movie
 exports.addMovie = async (req, res) => {
